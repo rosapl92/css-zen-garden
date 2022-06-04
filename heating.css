@@ -1,0 +1,15 @@
+/*regole di stile*/
+
+h1 {
+    /* size del font*/
+    font-size: 30px;
+    color: red;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: fuchsia;
+}

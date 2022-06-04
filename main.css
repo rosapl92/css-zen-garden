@@ -1,0 +1,12 @@
+header{
+    background-color: orange;
+    margin: 30px;
+    border: dotted white 5px;
+    border-radius: 40%;
+    padding: 20px;
+}
+
+body{
+    font-family: 'Lobster', cursive;
+    background: yellow;
+}
