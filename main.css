@@ -1,12 +1,20 @@
 header{
-    background-color: orange;
+    background-image:
+            url("The-Cube-Logo-White.png"),
+            url("kisspng-walking-stick-assistive-cane-white-cane-clip-art-walking-stick-5ad8f7c213a479.8610545415241686420805.png"),
+    linear-gradient(aqua, #ef8eef);
+    background-clip: padding-box;
     margin: 30px;
-    border: dotted white 5px;
-    border-radius: 40%;
-    padding: 20px;
+    border: dotted orange 10px;
+    border-radius: 55%;
+    padding: 200px;
 }
 
 body{
     font-family: 'Lobster', cursive;
-    background: yellow;
+    background: mediumvioletred;
+    background-image: url("The-Cube-Logo-White.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }

@@ -1,9 +1,5 @@
-@charset "utf-8";
-/* identifica il carattere: non è obbligatorio*/
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-/*styls*/
-@import "heating.css";
-@import "main.css";
-
-
+a.designer-name[href^="http://www.mezzoblue.com/"] ,
+a.designer-name[href*="elliotjaystocks"]{
+    color: #ef8eef;
+    font-size: 30px;
+}

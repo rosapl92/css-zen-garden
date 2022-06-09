@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box</title>
+    <style> /* il punto va per indicare la classe e l'id*/
+       .box{
+            border: dashed 5px red;
+            box-sizing: border-box;
+            padding: 90px;
+            width: 300px;
+           margin: 0 auto;
+            background: no-repeat 30px bottom/20% url("images/Bansky.png"),
+        linear-gradient(35deg, white, gray);
+            /* il deg per rendere obliqua la sfumatura*/
+        }
+    /* allineare i contenitori*/
+    .container-content-box{
+        max-width: 1080px;
+        margin: 0 auto;
+        padding-bottom: 5px;
+    }
+    .float-elements{
+        float: left;
+        border: 5px solid blue;
+        padding: 15px;
+        height: 300px;
+    }
+    .container-content-box > .float-elements{
+        box-sizing: content-box;
+    }
+    .container-content-box .main-content{
+        width: calc(70% - 10px - (10px *2) - (10px *2)- (5px * 2));
+        border-color: green;
+    }
+    .container-content-box .sidebar{
+        width: calc(30% - (10px * 2)- (5px * 2));
+        border-color: deepskyblue;
+    }
+    .clearfix{
+        clear: both;
+    }
+    /*allineare i bordi*/
+    .container-border-box > .float-elements{
+        box-sizing: border-box;
+    }
+    .container-border-box .main-content{
+        width: calc(70% - 10px);
+        border-color: #ef8eef;
+    }
+    .container-border-box .sidebar{
+        width: calc(30%);
+        border-color: #6872e0;
+    }
+    .clearfix{
+        clear: both;
+    }
+
+
+    </style>
+</head>
+<body>
+<div class="box">ciao come va?</div>
+<div class="container-content-box centred">
+    <div class="main-content   float-elements">
+        tutto bene
+    </div>
+    <div class="sidebar   float-elements">
+        si tutto bene
+    </div>
+    <div class="clearfix"></div>
+
+</div>
+<div class="container-border-box centred">
+    <div class="main-content   float-elements">
+        tutto bene
+    </div>
+    <div class="sidebar   float-elements">
+        si tutto bene
+    </div>
+    <div class="clearfix"></div>
+
+</div>
+</body>
+</html>

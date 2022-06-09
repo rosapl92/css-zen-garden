@@ -1,0 +1,21 @@
+/* regola generica indica tutti i div in header*/
+.header div {
+    background-color: red;
+}
+
+/* regolo più specifica indica solo i fratelli div di prova*/
+.prova ~ div {
+    color:aqua;
+}
+
+/*regola più specifica indica solo i fratelli adiacenti a prova*/
+.prova + div{
+    border:5px solid #ef8eef;
+}
+ /* regola per indicare un solo elemento in più fratelli e figli*/
+div.header > div + p {
+    padding: 50px;
+    margin: 50px;
+    color: fuchsia;
+    background: linear-gradient(45deg, blue, skyblue);
+}
