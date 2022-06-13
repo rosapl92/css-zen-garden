@@ -1,0 +1,13 @@
+header h1{
+    color: aqua;
+    font-size: xxx-large;
+    border: dashed blue 5px;
+    background-image: url("sabbiablu.jpg");
+    background-clip: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    padding: 50px;
+    border-radius: 55%;
+    margin: 0 auto;
+}
