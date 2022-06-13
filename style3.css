@@ -1,0 +1,17 @@
+/*0,1,0,1
+a#zen-link {
+    padding: 20px;
+    color: green;
+} */
+
+/*0,0,1,2*/
+div a.mylink {
+padding: 20px;
+color: red;
+}
+
+/*0,0,0,1*/
+a.mylink {
+    padding: 20px;
+    color: aqua;
+}
