@@ -18,10 +18,16 @@ div.page-wrapper{
     border-bottom-left-radius: 30px;
     padding: 20px;
 }
+.summary>p{
+    text-align: right;
+}
 .explanation p{
     text-align: right;
 }
-.requirements h3{
+.benefits>p{
+    text-align: right;
+}
+.requirements {
     text-align: center;
 }
 .wrapper h3{
