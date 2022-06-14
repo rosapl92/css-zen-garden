@@ -8,10 +8,17 @@ h3{
     border-bottom-left-radius: 30px;
     padding: 20px;
 }*/
+
 .summary>p{
     text-align: right;
 }
+.explanation h3{
+    text-align: right;
+}
 .explanation p{
+    text-align: right;
+}
+.benefits h3{
     text-align: right;
 }
 .benefits>p{

@@ -10,35 +10,43 @@ h2,h3{
 }
 div.summary{
     background-color: white;
-    margin: -20px;
+    margin: -25px;
     border-top-left-radius: 45px;
+    padding: 15px;
 }
 div.preamble{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 div.explanation{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 div.participation{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 div.benefits{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 div.requirements{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 footer{
     background-color: white;
     margin: -20px;
+    padding: 15px;
 }
 div.wrapper{
     background-color: white;
     margin: -20px;
-    border-bottom-left-radius: 40px;
+    padding: 15px;
+    border-bottom-left-radius: 50px;
 }
