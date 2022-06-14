@@ -1,4 +1,4 @@
-header h1{
+section.intro#zen-intro>header>h1{
     color: brown;
     font-size: xxx-large;
     border: dashed wheat 5px;
