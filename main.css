@@ -5,7 +5,9 @@ body{
     background-size: cover;
     font-family: 'Lobster', cursive;
 }
-
+h2,h3{
+    background: linear-gradient(30deg, wheat, sandybrown);
+}
 h3{
     color: #793232;
 }
