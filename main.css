@@ -12,5 +12,7 @@ h3{
 
 div.page-wrapper{
     background-color: white;
-    border-radius: 3%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
 }
