@@ -8,6 +8,7 @@ header h1{
     background-position: center;
     padding: 100px;
     border-radius: 55%;
+    text-align: right;
 }
 h2{
     font-size: x-large;
