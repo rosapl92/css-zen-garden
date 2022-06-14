@@ -1,12 +1,16 @@
 body{
-    color: white;
-    font-family: 'Lobster', cursive;
-    background-image: url("bioluminescenza.png");
+    background-image: url("sand-beach-as-background_102618-461.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    font-family: 'Lobster', cursive;
 }
-h2{
-    font-size: x-large;
-    color: #6872e0;
 
+h3{
+    color: #793232;
+}
+
+div.page-wrapper{
+    background-color: white;
+    border-radius: 3%;
 }

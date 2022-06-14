@@ -1,13 +1,15 @@
 header h1{
-    color: aqua;
+    color: brown;
     font-size: xxx-large;
-    border: dashed blue 5px;
-    background-image: url("sabbiablu.jpg");
-    background-clip: padding-box;
+    border: dashed wheat 5px;
+    background-image: url("Spiagge-Kemcolor.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-origin: padding-box;
-    padding: 50px;
+    background-position: center;
+    padding: 100px;
     border-radius: 55%;
-    margin: 0 auto;
+}
+h2{
+    font-size: x-large;
+    color: #6c2626;
 }
