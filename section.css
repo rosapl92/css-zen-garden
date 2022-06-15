@@ -12,7 +12,7 @@ section.intro#zen-intro>header>h1{
     color: brown;
     font-size: 60px;
     font-family: 'Pacifico', cursive;
-    bottom: 65px;
+    bottom: 95px;
     right: 20px;
 }
 header h1, header h2{
@@ -22,6 +22,6 @@ header h1, header h2{
 .intro header h2{
     font-size: 30px;
     color: #6c2626;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
 }
