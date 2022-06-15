@@ -1,16 +1,21 @@
 section.intro#zen-intro>header>h1{
     color: brown;
-    font-size: xxx-large;
-    border: dashed wheat 5px;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    /*border: dashed wheat 5px;
     background-image: url("Spiagge-Kemcolor.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 100px;
-    border-radius: 55%;
+    border-radius: 55%;*/
     text-align: right;
 }
+h1 h2{
+    margin: 0;
+}
 h2{
-    font-size: x-large;
+    font-size: 30px;
     color: #6c2626;
+    text-align: right;
 }

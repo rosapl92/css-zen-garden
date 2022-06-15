@@ -8,6 +8,9 @@ body{
 h2,h3{
     background: linear-gradient(30deg, wheat, sandybrown);
 }
+h3{
+    font-size: 25px;
+}
 div.summary{
     background-color: white;
     margin: -25px;
