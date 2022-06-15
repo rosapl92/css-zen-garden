@@ -6,6 +6,7 @@ header{
     width: calc(100% - 45px);
     height: 50vh;
     padding: 20px;
+    z-index: 99;
 }
 section.intro#zen-intro>header>h1{
     color: brown;

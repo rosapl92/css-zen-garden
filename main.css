@@ -28,3 +28,10 @@ div.wrapper{
 footer a:nth-child(2) /* secondo a si footer*/{
 display: none;
 }
+footer{
+    display: block;
+}
+footer a{
+    background-color: gray;
+    display: inline-block;
+}
