@@ -1,0 +1,70 @@
+/* general
+div.summary{
+    background-color: white;
+    margin: -25px;
+    border-top-left-radius: 45px;
+    padding: 14px;
+}
+div.preamble{
+    background-color: white;
+    margin: -20px;
+    padding: 14px;
+}
+div.explanation{
+    background-color: white;
+    margin: -20px;
+    padding: 14px;
+}
+div.participation{
+    background-color: white;
+    margin: -20px;
+    padding: 14px;
+}
+div.benefits{
+    background-color: white;
+    margin: -20px;
+    padding: 14px;
+}
+div.requirements{
+    background-color: white;
+    margin: -20px;
+    padding: 14px;
+}
+footer{
+    background-color: white;
+    margin: -20px;
+    padding: 10px;
+}
+div.wrapper{
+    background-color: white;
+    margin: -20px;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+}*/
+
+/* general
+body{
+    background-image: url("sand-beach-as-background_102618-461.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }*/
+
+/*section
+header h1{
+   border: dashed wheat 5px;
+   background-image: url("Spiagge-Kemcolor.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 100px;
+   border-radius: 55%;
+   }*/
+
+/* main
+div.page-wrapper{
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 20px;
+}*/

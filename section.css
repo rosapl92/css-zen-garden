@@ -13,13 +13,6 @@ section.intro#zen-intro>header>h1{
     font-family: 'Pacifico', cursive;
     bottom: 65px;
     right: 20px;
-    /*border: dashed wheat 5px;
-    background-image: url("Spiagge-Kemcolor.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 100px;
-    border-radius: 55%;*/
 }
 header h1, header h2{
     margin:0;
