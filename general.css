@@ -7,3 +7,18 @@ h2,h3{
 h3{
     font-size: 25px;
 }
+a:link{
+    color: sandybrown;
+    text-decoration: none;
+}
+a:hover{
+    color:wheat;
+    text-decoration: underline;
+}
+a:visited{
+    color: #793232;
+    text-decoration: underline;
+}
+a:active{
+    color: orange;
+}
