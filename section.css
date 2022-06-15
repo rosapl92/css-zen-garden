@@ -1,17 +1,18 @@
 header{
-    background-image: url("Spiagge-Kemcolor.jpeg");
-    position: absolute;
+    background-image:url("Spiagge-Kemcolor.jpeg");
+    position: relative;
     top: 0;
-    right: 0;
-    width: 100%;
+    left: 0;
+    width: calc(100% - 45px);
     height: 50vh;
     padding: 20px;
-
 }
 section.intro#zen-intro>header>h1{
     color: brown;
     font-size: 60px;
     font-family: 'Pacifico', cursive;
+    bottom: 40px;
+    right: 20px;
     /*border: dashed wheat 5px;
     background-image: url("Spiagge-Kemcolor.jpeg");
     background-size: cover;
@@ -19,14 +20,14 @@ section.intro#zen-intro>header>h1{
     background-position: center;
     padding: 100px;
     border-radius: 55%;*/
-
-    text-align: right;
 }
-h1 h2{
-    margin: 0;
+header h1, header h2{
+    margin:0;
+    position: absolute;
 }
-h2{
+.intro header h2{
     font-size: 30px;
     color: #6c2626;
-    text-align: right;
+    bottom: 20px;
+    right: 20px;
 }
