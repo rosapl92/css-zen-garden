@@ -1,3 +1,13 @@
-body{
-  background-color: red;
+$brand-color: green;
+$spacing: 1.5em;
+
+
+h1,h2,h3,h4,h5,h6{
+  color: $brand-color;
+  padding: $spacing;
+}
+
+a{
+  color: $brand-color;
+  margin: $spacing + .5em;
 }
