@@ -12,8 +12,8 @@ body{
       transition: inherit;
       color: $brand-light-color;
     }
-    @media ($tablet-screen) {
-
+    &::before{
+      content: "X";
     }
 
 
