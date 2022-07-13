@@ -1,0 +1,21 @@
+body{
+  a{
+    color: $brand-color;
+    margin: $spacing + .5em;
+    transition: color 4s ease;
+
+    &:active{
+      transition: inherit;
+      color: $brand-dark-color;
+    }
+    &:hover{
+      transition: inherit;
+      color: $brand-light-color;
+    }
+    @media ($tablet-screen) {
+
+    }
+
+
+  }
+}

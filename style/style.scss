@@ -1,23 +1,11 @@
-$brand-color: green;
-$brand-dark-color: #6348dc;
-$brand-light-color: aqua;
-$spacing: 1.5em;
+@import "variabili";
+@import "zen-intro-style";
 
-
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4{
   color: $brand-color;
   padding: $spacing;
 }
 
-a{
-  color: $brand-color;
-  margin: $spacing + .5em;
-
-  &:active{
-    color: $brand-dark-color;
-  }
-
-  &:hover{
-    color: $brand-light-color;
-  }
-}
