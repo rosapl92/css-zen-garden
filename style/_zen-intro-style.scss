@@ -1,4 +1,4 @@
-body{
+#zen-intro{
   a{
     color: $brand-color;
     margin: $spacing + .5em;
@@ -14,6 +14,7 @@ body{
     }
     &::before{
       content: "X";
+      color: red;
     }
 
 
